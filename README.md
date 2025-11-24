@@ -46,7 +46,7 @@ Logistic Regression (Primary Model): Chosen for transparency and strong performa
 
 Random Forest (Supporting Model): Used to validate patterns and provide additional insights through non-linear feature importance.
 
-Models were evaluated using accuracy, F1 score, and ROC AUC. ROC AUC was particularly important because it accounts for class imbalance (treatment-seeking vs non-treatment-seeking) and measures how well the model discriminates between the two groups. Logistic Regression was selected as the final model for its interpretability and actionable insights, ensuring findings are both data-driven and understandable to non-technical stakeholders.
+Models were evaluated using accuracy, F1 score, and ROC AUC. ROC AUC was particularly important because it accounts for class imbalance (treatment-seeking vs non-treatment-seeking) and measures how well the model discriminates between the two groups. Logistic Regression was chosen as the final model because it delivers clear, interpretable results that translate directly into actionable workplace insights.
 
 
 ## Insights and Key Findings 
@@ -55,11 +55,11 @@ The analysis uncovers clear patterns that explain what drives treatment-seeking 
 
 - Personal Factors Matter Most
 
-Employees with a family history of mental illness are significantly more likely to seek treatment. Age also plays a role, with older employees showing higher help-seeking rates. These patterns highlight how personal awareness and experience influence mental health decisions.
+Employees with a family history of mental illness are significantly more likely to seek treatment. Age also contributes, with older employees. These patterns highlight how personal awareness and experience influence mental health decisions.
 
 - Workplace Environment Shapes Action
 
-Work interference was the most consistent predictor across models. Supportive leave policies and larger company structures correlate with higher treatment-seeking, emphasizing the role of psychological safety and accessible HR processes.
+Work interference was the most consistent predictor across models. Supportive leave policies and larger company structures correlate with higher treatment-seeking, emphasizing the role of psychological safety and accessible, flexible time-off processes.
 
 - Access to Resources Encourages Help-Seeking
 
@@ -95,11 +95,9 @@ These insights provide actionable guidance for organizations aiming to improve e
 4. **Enhance Psychological Safety**  
 - **Insight:** Patterns in help-seeking vary by gender and culture, indicating opportunities to tailor mental health programs to different employee needs.  
 - **Action:** Build inclusive messaging and encourage leadership to model vulnerability.  
-- **AI Opportunity:** Language analysis can detect stigmatizing patterns, and virtual training can improve manager response.
+- **AI Opportunity:** Language analysis can detect stigmatizing patterns, and AI-supported training can improve manager responsiveness and empathy.
 
 **Overall:** Combining policy improvements, empathetic leadership, and responsible AI creates a supportive, ethical, and human-centered mental health ecosystem.
 
 ## Conclusion
 This project shows that personal history, workplace culture, and access to support collectively shape whether tech employees seek mental health treatment. Clear patterns from both exploration and modeling highlight the value of psychological safety, early intervention, and readily accessible resources. Logistic Regression provided strong, interpretable insights, making it ideal for translating findings into actionable workplace strategies. Ultimately, these results underscore the importance of empathy-driven policies and the potential for responsible, human-centered digital tools to enhance employee wellbeing at scale.
-
-
